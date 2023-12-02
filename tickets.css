@@ -1,0 +1,46 @@
+
+
+.ticket-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #ff6600;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+#totalAmount {
+    color: #ff6600;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.purchase-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-button:hover {
+    background-color: #ffcc00;
+}

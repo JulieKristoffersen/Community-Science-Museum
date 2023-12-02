@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets - Community Science Museum</title>
+    <link rel="stylesheet" href="tickets.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header-container">
+        <a href="index.html">
+            <img class="headerimg" src="images/Logo.jpg" alt="Science museum Logo">
+        </a>
+        <h1 class="main-heading">
+            Community Science Museum
+        </h1>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li><a href="./News.html">NEWS</a></li>
+            <li><a href="./EVENTS.html">EVENTS</a></li>
+            <li><a href="./About.museum.html">ABOUT MUSEUM</a></li>
+            <li><a href="./Tickets.html">BUY TICKETS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="ticket-section">
+            <h2>Buy Tickets</h2>
+            <p>Select the type and quantity of tickets you'd like to purchase:</p>
+
+            <form action="purchase_confirmation.html" method="post">
+                <label for="adultTickets">Adult Tickets:</label>
+                <input type="number" id="adultTickets" name="adultTickets" min="0" value="0">
+
+                <label for="childTickets">Child Tickets:</label>
+                <input type="number" id="childTickets" name="childTickets" min="0" value="0">
+
+                <label for="totalAmount">Total Amount:</label>
+                <span id="totalAmount">$0</span>
+
+                <button type="submit" class="purchase-button">Purchase Tickets</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>Opening hours</h3>
+                <p>Monday-Friday 10 am - 8 pm</p>
+                <p>Saturday and Sunday 9 am - 9 pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>About us</h3>
+                <p><strong>Explore with us</strong></p>
+                <p>1600 Pennsylvania Avenue NW, Washington, DC 20500, United States</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact us</h3>
+                <p>Email: community-sciencemuseum@post.com</p>
+                <p>123 45 678 (open 7am - 4pm)</p>
+            </div>
+            <div class="back-to-top">
+                <p><a href="#top">Back to top</a></p>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
+    
