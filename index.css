@@ -2,6 +2,7 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0;
+   overflow-x: hidden;
 }
 
 .header-container {
@@ -110,6 +111,11 @@ nav {
     transition: color 0.3s, transform 0.2s;
 }
 
+.main-nav a:hover {
+    text-decoration: underline; 
+    
+}
+
 .background-image {
     margin-top: 20px;
     width: 100%;
@@ -193,43 +199,78 @@ nav {
     }
 
     .headerimg {
-        max-width: 20%;
+        max-width: 40%;
+        margin: 20px auto;
+        position: static;
+        transform: translateX(0);
     }
 
     .main-heading {
         font-size: 1.5em;
-    }
-
-    .mobile-nav {
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        z-index: 3;
-    }
-
-    #menu-toggle:checked + .mobile-nav {
-        display: flex;
-        flex-direction: column;
-        background-color: #ff6600;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        right: 0;
-        z-index: 1000;
+        margin-top: 5px;
     }
 
     .main-nav {
-        display: none;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 10px;
+        word-spacing: 20px;
+        margin-top: 0%;
+    }
+
+    .main-nav li {
+        margin: 15px 10px;
     }
 
     .main-nav a {
-        text-align: center;
-        padding: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: relative;
+        word-spacing: 20px;
+        transition: color 0.3s, transform 0.2s;
+    }
+
+    nav {
+        margin-top: 10px;
+        min-height: 60px;
+        word-spacing: 10px;
+    }
+
+    .background-image {
+        margin-top: 10px;
+        max-height: 300px;
+    }
+
+    .textoverlay {
         font-size: 1.5em;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 200px;
+        margin: 10px 0;
+    }
+
+    .product-img {
+        max-height: 200px;
+    }
+
+    .footer-section {
+        margin: 5px;
+    }
+
+    .main-nav {
+        padding: 5px;
+    }
+
+    .main-nav li {
+        margin: 5px 5px;
+    }
+
+    .main-nav a {
+        font-size: 1em;
     }
 }
