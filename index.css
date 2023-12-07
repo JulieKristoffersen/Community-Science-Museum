@@ -113,7 +113,6 @@ nav {
 
 .main-nav a:hover {
     text-decoration: underline; 
-    
 }
 
 .background-image {
@@ -168,6 +167,16 @@ nav {
 
 .product p {
     margin: 5px 0;
+}
+
+.location-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.location-info iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .footer {
