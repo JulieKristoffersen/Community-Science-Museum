@@ -170,13 +170,26 @@ nav {
 }
 
 .location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     margin-top: 20px;
+}
+
+.location-info .map {
+    width: 50%;
+}
+
+.location-info .address {
+    width: 50%;
 }
 
 .location-info iframe {
     border: 1px solid #ddd;
     border-radius: 5px;
+    width: 100%;
+    height: 150px;
 }
 
 .footer {

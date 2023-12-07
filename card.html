@@ -30,21 +30,29 @@
         <main>
             <section class="ticket-section">
                 <h2>Buy Tickets</h2>
-                <p>Select the type and quantity of tickets you'd like to purchase:</p>
 
                 <form action="purchase_confirmation.html" method="post">
-                    <label for="adultTickets">Adult Tickets:</label>
-                    <input type="number" id="adultTickets" name="adultTickets" min="0" value="0">
+              
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                    <label for="childTickets">Child Tickets:</label>
-                    <input type="number" id="childTickets" name="childTickets" min="0" value="0">
+                    <label for="cardNumber">Card Number:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}" placeholder="16 digits" required>
+
+                    <label for="expiryDate">Expiry Date (MM/YY):</label>
+                    <input type="text" id="expiryDate" name="expiryDate" pattern="(0[1-9]|1[0-2])/\d{2}" required>
+
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" pattern="\d{3}" placeholder="3 digits" required>
 
                     <label for="totalAmount">Total Amount:</label>
                     <span id="totalAmount">$0</span>
-                </div>
-                <a href="card.html" class="purchase-button">Purchase Tickets</a>
+
+                    <button type="submit" class="purchase-button">Purchase Tickets</button>
+                </form>
             </section>
         </main>
+
 
         <div class="footer">
             <div class="container">
