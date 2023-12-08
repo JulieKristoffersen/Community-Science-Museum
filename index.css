@@ -215,6 +215,20 @@ nav {
     color: #fff;
 }
 
+.ticket-section {
+    text-align: center; 
+}
+
+.purchase-button {
+    display: inline-block; 
+    margin-top: 20px;
+    padding: 10px 20px; 
+    background-color: #ff6600; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
