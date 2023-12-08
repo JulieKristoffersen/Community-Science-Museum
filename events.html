@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Child-Friendly Events</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        .image-container {
+            height: 150px; 
+            overflow: hidden;
+        }
+
+        .product-img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+
 </head>
+
 <body>
     <main>
         <header class="header-container">
@@ -26,55 +40,87 @@
             </ul>
         </nav>
 
-    <section id="home">
-        <h2>Welcome to Child-Friendly Events</h2>
-        <p>Discover exciting and educational events for children of all ages!</p>
-    </section>
+        <section id="home">
+            <h2>Welcome to us everyday!</h2>
+            <p>Discover our exciting and educational events for children of all ages!</p>
+        </section>
 
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <!-- Display upcoming events here -->
-        <div class="event">
-            <img src="event-image.jpg" alt="Event Image">
-            <h3>Event Title</h3>
-            <p>Date: MM/DD/YYYY</p>
-            <p>Location: Event Venue</p>
-            <p>Description of the event...</p>
-        </div>
-        <!-- Repeat for other events -->
-    </section>
+        <section id="events" class="events-section">
+            <h2>Events happening everyday</h2>
+            <div class="image-list">
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/ant.jpg" alt="Event 1" class="product-img" />
+                    </div>
+                    <p><strong>Ant museum</strong></p>
+                    <p>Open everyday</p>
+                    <p>Come explore the various ants</p>
+                </div>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Learn more about our mission to provide fun and educational events for children.</p>
-    </section>
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/babytoy.jpg" alt="Event 2" class="product-img" />
+                    </div>
+                    <p><strong>Baby room</strong></p>
+                    <p>Open everyday</p>
+                    <p>Every baby is welcome to start exploring in the baby room</p>
+                </div>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-    </section>
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/balls.jpg" alt="Event 3" class="product-img" />
+                    </div>
+                    <p><strong>Educational room</strong></p>
+                    <p>Open everyday</p>
+                    <p>Explore the fun in physics</p>
+                </div>
+            </div>
+        </section>
 
-    <div class="footer">
-        <div class="container">
-            <div class="footer-section">
-                <h3>Opening hours</h3>
-                <p>Monday-Friday 10 am - 8 pm</p>
-                <p>Saturday and Sunday 9 am - 9 pm</p>
+        <section id="events2" class="events-section">
+            <h2>Events every tuesday</h2>
+            <div class="image-list">
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/kid.science.jpg" alt="Event 4" class="product-img" />
+                    </div>
+                    <p><strong>Lab exploring</strong></p>
+                    <p>Open 16-18</p>
+                    <p>Every tuesday</p>
+                    <p>Have a close up of bacteria, ants and much more</p>
+                </div>
+
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/VR.jpg" alt="Event 5" class="product-img" />
+                    </div>
+                    <p><strong>Explore a new world with VR</strong></p>
+                    <p>Open 16-19</p>
+                    <p>Every tuesday</p>
+                    <p>Enjoy the freedome in another world</p>
+                </div>
+
+                <div class="product">
+                    <div class="image-container">
+                        <img src="images/reading.boy.jpg" alt="Event 6" class="product-img" />
+                    </div>
+                    <p><strong>Reading class</strong></p>
+                    <p>Open 16-18</p>
+                    <p>Every tuesday</p>
+                    <p>Learn how to read or sit in a corner and join a fairytaile</p>
+                </div>
             </div>
-            <div class="footer-section">
-                <h3>About us</h3>
-                <p><strong>Explore with us</strong></p>
-                <p>1600 Pennsylvania Avenue NW, Washington, DC 20500, United States</p>
-            </div>
-            <div class="footer-section">
-                <h3>Contact us</h3>
-                <p>Email: community-sciencemuseum@post.com</p>
-                <p>123 45 678 (open 7am - 4pm)</p>
-            </div>
-            <div class="back-to-top">
-                <p><a href="#top">Back to top</a></p>
-            </div>
-        </div>
-    </div>
-    </body>
-    </html>
-    
+        </section>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-section">
+                    <h3>Opening hours</h3>
+                    <p>Monday-Friday 10 am - 8 pm</p>
+                    <p>Saturday and Sunday 9 am - 9 pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About us</h3>
+                    <p><strong>Explore with us</strong></p>
+                    <p>1600 Pennsylvania Avenue NW, Washington, DC 20500, United States</p>
+                
