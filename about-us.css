@@ -38,6 +38,13 @@
     background-color: rgba(255, 255, 255, 0.5); 
 }
 
+.events-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the overlay */
+    color: black; /* Set the text color to black */
+    padding: 20px; /* Add padding as needed */
+}
+
 .image-list {
     position: relative;
     z-index: 1; 
